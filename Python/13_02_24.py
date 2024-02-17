@@ -13,4 +13,10 @@ def find_it(seq):
                 i[1] += 1
         if i[1] % 2 != 0:
             return i[0]
-            
+
+''' OR
+def find_it(seq):
+    for n in seq:
+        if seq.count(n) % 2 != 0:
+            return n
+'''
